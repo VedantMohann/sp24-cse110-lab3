@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://vedantmohann.github.io/Lab2_StarterFork/
+https://vedantmohann.github.io/sp24-cse110-lab3/
