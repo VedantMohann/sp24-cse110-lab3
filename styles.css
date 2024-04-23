@@ -42,6 +42,10 @@ h2, h3 {
   text-align: center;
   text-decoration: underline;
   display: inline;
+  height: 20px;
+  width: 100px;
+  max-width: 150px;
+  min-width: none;
 }
 
 nav ul {
@@ -50,7 +54,7 @@ nav ul {
   margin-bottom: 5px;
   margin: 20px 20px 10px 10px;
   padding: 1px 1px 1px 1px;
-  display: none;
+  display: inline;
 }
 
 nav li {
@@ -58,7 +62,7 @@ nav li {
   color: rebeccapurple;
   margin: 20px 3rem 10px 10px;
   padding: 1px 1px 1px 1px;
-  display: none;
+  display: inline;
 }
 
 footer {
