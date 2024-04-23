@@ -17,3 +17,6 @@ finished adding units
 
 4/23 1:44
 finished box model
+
+4/23 1:45
+finished text
