@@ -8,3 +8,6 @@ Added color
 
 4/23 12:55
 Added variable with fallback
+
+4/23 12:58
+finished adding background colors

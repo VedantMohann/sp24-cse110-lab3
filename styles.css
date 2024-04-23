@@ -21,10 +21,12 @@ h2, h3 {
 }
 
 nav ul {
+  background-color: blue;
   color: hsl(80,10%,50%);
 }
 
-nav ul li {
+nav li {
+  background-color: red;
   color: rebeccapurple
 }
 
