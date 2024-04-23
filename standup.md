@@ -20,3 +20,6 @@ finished box model
 
 4/23 1:45
 finished text
+
+4/23 1:55
+finished display

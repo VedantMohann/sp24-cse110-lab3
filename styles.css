@@ -12,6 +12,7 @@ h1 {
   padding-bottom: 1px;
   padding-left: 1px;
   padding-right: 1px;
+  display: block;
 }
 
 main {
@@ -19,12 +20,14 @@ main {
   color: #333;
   margin: 20px 20px 10px 10px;
   padding: 1px 1px 1px 1px;
+  display: inline-block;
 }
 
 section {
   background-color: color(color(space-rgb 255 0 0));
   margin: 20px 20px 10px 10px;
   padding: 1px 1px 1px 1px;
+  display: inline-block;
 }
 
 h2, h3 {
@@ -38,6 +41,7 @@ h2, h3 {
   border-radius: 50px;
   text-align: center;
   text-decoration: underline;
+  display: inline;
 }
 
 nav ul {
@@ -46,6 +50,7 @@ nav ul {
   margin-bottom: 5px;
   margin: 20px 20px 10px 10px;
   padding: 1px 1px 1px 1px;
+  display: none;
 }
 
 nav li {
@@ -53,6 +58,7 @@ nav li {
   color: rebeccapurple;
   margin: 20px 3rem 10px 10px;
   padding: 1px 1px 1px 1px;
+  display: none;
 }
 
 footer {
@@ -61,4 +67,5 @@ footer {
   padding: 10px 0;
   margin: 20px 20px 10px 10px;
   padding: 1px 1px 1px 1px;
+  display: inline;
 }
