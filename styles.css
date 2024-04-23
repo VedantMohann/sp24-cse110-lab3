@@ -4,6 +4,7 @@
 h1 {
   background-color: beige;
   color: #333;
+  margin-bottom: 2rem; 
 }
 
 main {
@@ -18,20 +19,23 @@ section {
 h2, h3 {
   background-color: var(--main-color, #4CAF60);
   color: #333;
+  margin-bottom: 1rem; 
 }
 
 nav ul {
   background-color: blue;
   color: hsl(80,10%,50%);
+  margin-bottom: 5px;
 }
 
 nav li {
   background-color: red;
-  color: rebeccapurple
+  color: rebeccapurple;
+  margin-bottom: 3rem; 
 }
 
 footer {
   background-color: #333;
   color: #fff;
-
+  padding: 10px 0;
 }
