@@ -38,3 +38,6 @@ layouts done
 
 4/23 3:19
 responsiveness done
+
+4/23 3:28
+fonts done
