@@ -1,0 +1,32 @@
+h1 {
+  background-color: beige;
+  color: #333;
+}
+
+main {
+  background-color: color-mix(blend, navy, red 20%);
+  color: #333;
+}
+
+section {
+  background-color: color(color(space-rgb 255 0 0));
+}
+
+h2, h3 {
+  background-color: beige;
+  color: #333;
+}
+
+nav ul {
+  color: hsl(80,10%,50%);
+}
+
+nav ul li {
+  color: rebeccapurple
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+
+}
