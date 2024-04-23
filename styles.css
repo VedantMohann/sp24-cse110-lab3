@@ -75,3 +75,11 @@ footer {
   padding: 1px 1px 1px 1px;
   display: inline;
 }
+
+footer button:hover {
+  background-color: #45a049; /* Hexadecimal color code */
+}
+
+footer button:active {
+  background-color: #0a7d08; /* Hexadecimal color code */
+}

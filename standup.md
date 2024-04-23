@@ -29,3 +29,6 @@ finished sizing
 
 4/23 2:11 
 finished position
+
+4/23 2:21
+finished pseudo-class
