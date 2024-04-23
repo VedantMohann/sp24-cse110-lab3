@@ -77,9 +77,40 @@ footer {
 }
 
 footer button:hover {
-  background-color: #45a049; /* Hexadecimal color code */
+  background-color: #45a049; 
 }
 
 footer button:active {
-  background-color: #0a7d08; /* Hexadecimal color code */
+  background-color: #0a7d08;/*button changes color*/
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: row-reverse;
+  gap: 1px;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  margin: 10px; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: right;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
 }
