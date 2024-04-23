@@ -1,1 +1,4 @@
 for standup notes
+
+4/23 11:27
+Worked on adding internal CSS with <style> and added a comment
