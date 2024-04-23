@@ -23,3 +23,9 @@ finished text
 
 4/23 1:55
 finished display
+
+4/23 2:09 
+finished sizing
+
+4/23 2:11 
+finished position

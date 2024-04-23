@@ -13,6 +13,7 @@ h1 {
   padding-left: 1px;
   padding-right: 1px;
   display: block;
+  position: static;
 }
 
 main {
@@ -46,6 +47,7 @@ h2, h3 {
   width: 100px;
   max-width: 150px;
   min-width: none;
+  position: sticky;
 }
 
 nav ul {
