@@ -32,3 +32,9 @@ finished position
 
 4/23 2:21
 finished pseudo-class
+
+4/23 2:50
+layouts done
+
+4/23 3:19
+responsiveness done
