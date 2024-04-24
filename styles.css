@@ -1,6 +1,13 @@
 :root {
   --main-color: #4CAF50; 
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  text-align: center;
+}
 body {
   font-family: 'Roboto', sans-serif; 
 }
@@ -91,7 +98,18 @@ footer {
   padding: 1px 1px 1px 1px;
   display: inline;
 }
-
+div.container{
+  font-weight: 900;
+}
+.hello {
+  color: yellowgreen;
+  .hi{
+    background-color: red;
+  }
+}
+ul:has(+ p) {
+  font-style: italic;
+}
 footer button:hover {
   background-color: #45a049; 
 }
@@ -99,7 +117,12 @@ footer button:hover {
 footer button:active {
   background-color: #0a7d08;/*button changes color*/
 }
-
+ul ~ p {
+  color: pink;
+}
+ul + p {
+  font-weight: 700;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -109,7 +132,7 @@ footer button:active {
   background-color: #f0f0f0;
 }
 
-.box {
+.container > .box {
   width: 100px;
   height: 100px;
   background-color: #007bff;
