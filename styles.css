@@ -1,0 +1,155 @@
+:root {
+  --main-color: #4CAF50; 
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  text-align: center;
+}
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+h1 {
+  background-color: beige;
+  color: #333;
+  margin-top: 2rem; 
+  margin-bottom: 2rem; 
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  display: block;
+  position: static;
+}
+
+
+@media screen and (min-width: 768px) {
+  .box {
+      width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+      width: 30%;
+  }
+}
+
+main {
+  background-color: color-mix(blend, navy, red 20%);
+  color: #333;
+  margin: 20px 20px 10px 10px;
+  padding: 1px 1px 1px 1px;
+  display: inline-block;
+}
+
+section {
+  background-color: color(color(space-rgb 255 0 0));
+  margin: 20px 20px 10px 10px;
+  padding: 1px 1px 1px 1px;
+  display: inline-block;
+}
+
+h2, h3 {
+  background-color: var(--main-color, #4CAF60);
+  color: #333;
+  margin: 20px 1rem 10px 10px;
+  padding: 1px 1px 1px 1px;
+  border-style: dashed;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline;
+  height: 20px;
+  width: 100px;
+  max-width: 150px;
+  min-width: none;
+  position: sticky;
+}
+
+nav ul {
+  background-color: blue;
+  color: hsl(80,10%,50%);
+  margin-bottom: 5px;
+  margin: 20px 20px 10px 10px;
+  padding: 1px 1px 1px 1px;
+  display: inline;
+}
+
+nav li {
+  background-color: red;
+  color: rebeccapurple;
+  margin: 20px 3rem 10px 10px;
+  padding: 1px 1px 1px 1px;
+  display: inline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 20px 20px 10px 10px;
+  padding: 1px 1px 1px 1px;
+  display: inline;
+}
+div.container{
+  font-weight: 900;
+}
+.hello {
+  color: yellowgreen;
+  .hi{
+    background-color: red;
+  }
+}
+ul:has(+ p) {
+  font-style: italic;
+}
+footer button:hover {
+  background-color: #45a049; 
+}
+
+footer button:active {
+  background-color: #0a7d08;/*button changes color*/
+}
+ul ~ p {
+  color: pink;
+}
+ul + p {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: row-reverse;
+  gap: 1px;
+  background-color: #f0f0f0;
+}
+
+.container > .box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  margin: 10px; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: right;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
